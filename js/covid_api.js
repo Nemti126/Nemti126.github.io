@@ -248,8 +248,8 @@
         // Iterate over the JSON object
         for (var i = 0, len = feat.length; i < len; i++) {
           tableData.push({
-            date: feat[i].string,
-            state: feat[i].string,
+            date: feat[i].date,
+            state: feat[i].state,
             positive: feat[i].positive,
             probableCases: feat[i].probableCases,
             negative: feat[i].negative,
